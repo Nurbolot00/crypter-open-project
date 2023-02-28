@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 1rem;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(224, 222, 222);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  border-right: 2px solid rgb(224, 222, 222);
+  padding-right: 1rem;
+}
+
+.logo-container p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #23262f;
+}
+
+#logo-symbol {
+  width: 30px;
+}
+
+.first-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.first-navigation a {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #23262f;
+  text-decoration: none;
+}
+
+.fc {
+  margin: 0 0.5rem;
+}
+
+.how-it-works {
+  opacity: 50%;
+}
+
+.second-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.second-navigation input {
+  border: 2px solid #e6e8ec;
+  border-radius: 8px;
+  padding: 10px 12px 10px 16px;
+  outline: none;
+}
+
+.second-navigation img {
+  width: 30px;
+}
+.second-navigation a {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid rgb(220, 217, 217);
+  border-radius: 20px;
+  padding: 0.5rem 0.8rem;
+}
+
+.upload-btn {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 0.5rem;
+  color: white;
+  background: #3772ff;
+}
+
+.sn {
+  margin-right: 0.8rem;
+}
+
+.start-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: 200px;
+}
+
+.start-container p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #777e91;
+}
+
+.start-container h2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #23262f;
+  margin-bottom: 1rem;
+}
+
+.start-container > a{
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #23262f;
+  text-decoration: none; 
+  border-radius: 20px;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid rgb(220, 217, 217);
+}
